@@ -1,4 +1,4 @@
-lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+lista = [1, 2, 3, 4, 5, 9, 89]
 print(f"la longitud de la lista es: {len(lista)}")
 
 suma = 0
@@ -13,3 +13,7 @@ for i in lista :
     multiplicacion *= i
 
 print(f"\nmultiplicacion elementos lista :{multiplicacion}")    
+
+
+lista.append(4)
+print(f"\nla longitud actualizada es :{len(lista)}")
