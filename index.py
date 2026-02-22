@@ -12,4 +12,4 @@ multiplicacion = 1
 for i in lista :
     multiplicacion *= i
 
-    print(f"\nla multiplicacion elementos lista : {multiplicacion}") 
+print(f"\nmultiplicacion elementos lista :{multiplicacion}")    
